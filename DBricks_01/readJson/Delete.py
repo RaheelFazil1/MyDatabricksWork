@@ -1,8 +1,13 @@
 # Databricks notebook source
-# %sql
-# select * from appl_stock
-# where `timestamp`>= '2024-05-13T18:30:52' and `timestamp` <= '2024-05-13T18:30:53'
-# order by `timestamp`
+# MAGIC %sql
+# MAGIC select * from appl_stock
+# MAGIC -- where `timestamp`>= '2024-05-13T18:30:52' and `timestamp` <= '2024-05-13T18:30:53'
+# MAGIC order by `timestamp`
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select * from msft_agg
 
 # COMMAND ----------
 
